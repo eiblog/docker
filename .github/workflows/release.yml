@@ -17,6 +17,5 @@ jobs:
       uses: docker/build-push-action@v2
       with:
         context: elasticsearch
-        file: ./Dockerfile
         push: true
         tags: deepzz0/elasticsearch:2.4.3
