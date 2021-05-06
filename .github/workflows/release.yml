@@ -1,9 +1,6 @@
 name: release image
 
-on:
- push:
-   tags:
-      - "v*"
+on: push
 
 jobs:
   package:
