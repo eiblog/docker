@@ -18,4 +18,4 @@ jobs:
       with:
         context: elasticsearch
         push: true
-        tags: deepzz0/elasticsearch:2.4.3
+        tags: deepzz0/elasticsearch:2.4.1
