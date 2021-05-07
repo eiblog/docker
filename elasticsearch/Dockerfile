@@ -1,4 +1,4 @@
-FROM elasticsearch:2.4.3
+FROM elasticsearch:2.4.1
 LABEL maintainer="deepzz.qi@gmail.com"
 
 ENV ES_JAVA_OPTS="-Xms512m -Xmx512m"
